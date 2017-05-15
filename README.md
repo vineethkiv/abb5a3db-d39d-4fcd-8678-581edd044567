@@ -10,7 +10,7 @@ Service entry point.
 Can be shared as service contract to consuming developers.
 
 # AccountInquiryService
-Service implementation for fetching account details.
+Service implementation for fetching account details. <br>
 Contains 2 operations <br>
   a) getAccountIdList - get available account id list <br>
      sample URL : http://localhost:9081/getAccountIdList <br>
