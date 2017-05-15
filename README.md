@@ -11,11 +11,11 @@ Can be shared as service contract to consuming developers.
 
 # AccountInquiryService
 Service implementation for fetching account details.
-Contains 2 operations
-  a) getAccountIdList - get available account id list
-     sample URL : http://localhost:9081/getAccountIdList
-  b) getAccountDetailsById - accept account id as parameter
-     sample URL : http://localhost:9081/getAccountById/12345
+Contains 2 operations <br>
+  a) getAccountIdList - get available account id list <br>
+     sample URL : http://localhost:9081/getAccountIdList <br>
+  b) getAccountDetailsById - accept account id as parameter <br>
+     sample URL : http://localhost:9081/getAccountById/12345 <br>
 Authentication implemented using JSON Web Token authentication method.
 Token expiry time set for 1 minute
 
