@@ -56,7 +56,7 @@ public class AccountServiceExceptionHandler extends ResponseEntityExceptionHandl
 		logger.error("General Service Error", ex);
 		
 		String bodyOfResponse = "{ \"error\": " + ex.getMessage() + "\" }";
-		return handleExceptionInternal(ex, bodyOfResponse, new HttpHeaders(), HttpStatus.CONFLICT, request);
+		return handleExceptionInternal(ex, bodyOfResponse, new HttpHeaders(), HttpStatus.SERVICE_UNAVAILABLE, request);
 	}
 
 }
